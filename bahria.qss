@@ -1,0 +1,70 @@
+/* GLOBAL SETTINGS */
+QWidget {
+    background-color: #FFFFFF; /* White background */
+    font-family: "Segoe UI", "Roboto", Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+/* HEADER LABEL (The top bar)
+   Note: Assign the objectName "headerLabel" to your top "Bahria University" label
+*/
+QLabel#headerLabel {
+    background-color: #34495e; /* Dark Navy Blue from the target image header */
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 30px;
+}
+
+/* MAIN TITLE (Login - Bahria LMS) */
+QLabel#titleLabel {
+    color: #34495e;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* INPUT FIELDS */
+QLineEdit {
+    background-color: #F0F2F5; /* Light grey background for inputs */
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;        /* Rounded corners */
+    padding: 10px;             /* Inner spacing for text */
+    font-size: 14px;
+    selection-background-color: #0072bc;
+}
+
+QLineEdit:focus {
+    border: 2px solid #0072bc; /* Blue highlight when clicked */
+    background-color: #FFFFFF;
+}
+
+/* PLACEHOLDER TEXT COLOR */
+QLineEdit::placeholder {
+    color: #888888;
+}
+
+/* LOGIN BUTTON
+   Mimicking the "Admission" blue block from your target image
+*/
+QPushButton {
+    background-color: #0072bc; /* Bahria Blue */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005a9e; /* Slightly darker blue on hover */
+    cursor: pointer;
+}
+
+QPushButton:pressed {
+    background-color: #00447a;
+}
